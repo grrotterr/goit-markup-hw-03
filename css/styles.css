@@ -437,6 +437,25 @@ main h2 {
     padding-bottom: 32px;
 }
 
+.footer{
+    background-color: #2E2F42;   
+    padding: 100px 1020px 100px 156px;    
+    color: #F4F4FD;    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.footer-line{
+    display: flex;
+    max-width: 1158px;            
+    margin: 0 auto;               
+    display: flex;
+    flex-direction: column;       
+    align-items: flex-start;      
+    gap: 16px;          
+
+}
 
 .web-footer{
     color: #4D5AE5;
@@ -468,5 +487,7 @@ main h2 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    text-align: left;
+    max-height: 112px;
 
 }
