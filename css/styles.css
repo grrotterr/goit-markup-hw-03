@@ -3,17 +3,21 @@ body{
     color: #434455;
     background-color: #FFFFFF;
     line-height: 1.5;
+    
 
 }
 
 header{
     background-color: #FFFFFF;
+    display: block;
+
 }
 
 
 a{
     text-decoration: none;
     color: #2E2F42;
+    margin: 0;
     
 
 }
@@ -73,6 +77,11 @@ footer{
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 347px;
+    margin-left: 940px;
+    display: inline;
     
 }
 
@@ -84,7 +93,7 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+  
 }
 
 .mail-link:hover,
@@ -100,6 +109,7 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+  
 }
 
 .tel-link:hover,
@@ -119,6 +129,9 @@ footer{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 156px;
 
 }
 
@@ -131,9 +144,15 @@ footer{
 
 .navi{
      font-family: 'Roboto', sans-serif;
+     display: flex;
+     margin-top: 24px;
+     margin-left: 347px;
+     gap: 40px;
+     justify-content: space-between;
+     max-width: 261px;
 }
 
-.navi-link{
+.navi .navi-link{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -141,6 +160,7 @@ footer{
     color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 
 .navi .navi-link:hover,
