@@ -1,3 +1,9 @@
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -49,16 +55,12 @@ footer{
     background-color: #2E2F42;
 }
 
-.container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;  
-    padding: 0;    
+    padding: 0 76px;    
 }
 
 .header-line{
@@ -72,7 +74,8 @@ footer{
  }
 
 .main-link{
-    display: block;
+    display: inline-block;
+    
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
@@ -82,7 +85,7 @@ footer{
     text-transform: uppercase;
     margin: 24px 0;
     gap: 76px;
-    padding-left: 156px;
+    
 
 }
 
@@ -479,8 +482,7 @@ main h2 {
     color: #2E2F42;
     margin-bottom: 8px;
     text-align: left;
-    padding-top: 32px;
-    padding-left: 16px;
+    padding: 32px auto auto 16 px;
     margin-bottom: 8px;
     gap: 8px;
    
@@ -496,6 +498,7 @@ main h2 {
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0;
+    padding: 0;
     padding-left: 16px;
     padding-bottom: 32px;
     
