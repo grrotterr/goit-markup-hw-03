@@ -7,19 +7,18 @@ body{
 
 }
 
-header{
+.header{
     background-color: #FFFFFF;
     display: block;
+    border: 1px solid #E7E9FC;
 
 }
-
 
 a{
     text-decoration: none;
     color: #2E2F42;
     margin: 0;
     
-
 }
 
 ul{
@@ -31,6 +30,112 @@ ul{
 footer{
     background-color: #2E2F42;
 }
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+ }
+
+.main-link{
+    display: block;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E2F42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 24px 0 24px 156px;
+
+}
+
+.web-link{
+    color: #4D5AE5;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+}
+
+.navi{
+     font-family: 'Roboto', sans-serif;
+     display: flex;
+     gap: 40px;
+     margin-left: 76px;
+     max-width: 261px;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+.navi .navi-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+}
+
+.navi .navi-link:hover,
+.navi .navi-link:focus{
+    color: #404bbf;
+}
+
+
+.contacts{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: 156px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mail-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mail-link:hover,
+.mail-link:focus{
+    color: #404BBF;
+}
+
+.tel-link{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  
+}
+
+.tel-link:hover,
+.tel-link:focus{
+    color: #404BBF;
+}
+
 
 .web-footer{
     color: #4D5AE5;
@@ -68,104 +173,10 @@ footer{
 
 }
 
-.contacts{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: left;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-right: 347px;
-    margin-left: 940px;
-    display: inline;
-    
-}
-
-.mail-link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  
-}
-
-.mail-link:hover,
-.mail-link:focus{
-    color: #404BBF;
-}
-
-.tel-link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  
-}
-
-.tel-link:hover,
-.tel-link:focus{
-    color: #404BBF;
-}
-
-
-
-
-.main-link{
-    font-family: 'Raleway';
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    color: #2E2F42;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 156px;
-
-}
-
-.web-link{
-    color: #4D5AE5;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-}
-
-.navi{
-     font-family: 'Roboto', sans-serif;
-     display: flex;
-     margin-top: 24px;
-     margin-left: 347px;
-     gap: 40px;
-     justify-content: space-between;
-     max-width: 261px;
-}
-
-.navi .navi-link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    color: #2E2F42;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    
-}
-
-.navi .navi-link:hover,
-.navi .navi-link:focus{
-    color: #404bbf;
+.main-section-container{
+    width: 1440px;
+    height: 600px;
+    margin-top: 72px;
 }
 
 .main-section{
