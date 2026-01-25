@@ -11,6 +11,8 @@ body{
     background-color: #FFFFFF;
     display: block;
     border: 1px solid #E7E9FC;
+    margin-bottom: 0;   
+    padding-bottom: 0;
 
 }
 
@@ -176,16 +178,29 @@ footer{
 .main-section-container{
     width: 1440px;
     height: 600px;
-    margin-top: 72px;
+    margin-top: 0px;
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    min-height: 600px;           
+    text-align: center;  
 }
 
 .main-section{
     background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
 
 }
 
+main h1,
+main h2 {
+  margin-top: 0;
+}
+
 .hero{
-    
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
@@ -194,6 +209,13 @@ footer{
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    justify-content: center;
+    align-items: center;
+    padding: 188px 472px 48px 472px;  
+    gap: 48px; 
+    margin: 0;
+   
+    
 }
 
 .button-order{
@@ -207,6 +229,17 @@ footer{
     border: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    margin-left: 636px;
+    margin-right: 635px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
 }
 
 .button-order:hover,
