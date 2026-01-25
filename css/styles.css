@@ -55,12 +55,20 @@ footer{
     margin: 0 auto;
 }
 
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;  
+    padding: 0;    
+}
+
 .header-line{
     display: flex;
     align-items: center;
+    gap: 76px;
     justify-content: space-between;
-    padding: 0 15px;
+    width: 100%;
     box-sizing: border-box;
+    margin: 0 auto;
  }
 
 .main-link{
@@ -73,6 +81,8 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin: 24px 0;
+    gap: 76px;
+    padding-left: 156px;
 
 }
 
@@ -89,8 +99,7 @@ footer{
      gap: 40px;
      margin-left: 76px;
      max-width: 261px;
-     margin-top: 0;
-     margin-bottom: 0;
+     margin:0;
 }
 
 .navi .navi-link{
@@ -400,6 +409,12 @@ main h2 {
     justify-content: space-between;
 }
 
+.portfolio-title,
+.portfolio-describe {
+  padding: 0;
+  margin: 0;
+}
+
 .top-portfolio{
     font-family: "Roboto", sans-serif;
     font-size: 36px;
@@ -470,7 +485,7 @@ main h2 {
     text-align: left;
     padding-top: 32px;
     padding-left: 16px;
-
+    margin-bottom: 8px;
     gap: 8px;
    
 }
@@ -487,6 +502,7 @@ main h2 {
     margin: 0;
     padding-left: 16px;
     padding-bottom: 32px;
+    
 }
 
 .footer{
