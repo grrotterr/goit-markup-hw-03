@@ -398,11 +398,10 @@ main h2 {
 .portfolio-content{
     padding: 32px 16px;
     width: 360px;
-    height: 120px;
     border: 1px solid #E7E9FC;
     border-top: none;
     box-sizing: border-box;
-    display: flex;
+    display: block;
     flex-direction: column;
     padding: 16px;
     padding-bottom: 24px;
@@ -456,10 +455,7 @@ main h2 {
     background-color: #fff;    
     cursor: pointer;
 
-    background-color: #fff;
-    border-left: 1px solid #E7E9FC;
-    border-right:1px solid #E7E9FC ;
-    border-bottom: 1px solid #E7E9FC;
+   
 
 }
 
@@ -481,7 +477,7 @@ main h2 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin: 0 0 8px 0;
+    margin-bottom: 8px;
     text-align: left;
     padding-top: 32px;
     padding-left: 16px;
