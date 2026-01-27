@@ -67,10 +67,9 @@ footer{
     display: flex;
     align-items: center;
     gap: 76px;
-    justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    margin-left: auto;
+    
  }
 
 .main-link{
@@ -102,7 +101,7 @@ footer{
      gap: 40px;
      margin-left: 76px;
      max-width: 261px;
-     margin-left:auto;
+     
 }
 
 .navi .navi-link{
