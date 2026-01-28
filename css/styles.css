@@ -60,7 +60,7 @@ footer{
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;  
-    padding: 0 76px;    
+       
 }
 
 .header-line{
@@ -74,7 +74,6 @@ footer{
 
 .main-link{
     display: inline-block;
-    
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
@@ -99,7 +98,6 @@ footer{
      font-family: 'Roboto', sans-serif;
      display: flex;
      gap: 40px;
-     margin-left: 76px;
      max-width: 261px;
      
 }
