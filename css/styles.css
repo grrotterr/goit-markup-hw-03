@@ -143,6 +143,7 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: inline-block;
 }
 
 .mail-link:hover,
@@ -158,6 +159,7 @@ footer{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: inline-block;
   
 }
 
@@ -218,8 +220,6 @@ main h2 {
     border: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    width: 169px;
-    height: 56px;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
